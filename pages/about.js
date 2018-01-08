@@ -1,11 +1,10 @@
 import Header from '../components/Header.js'
-
+import Layout from '../components/Layout.js'
 export default () => {
   return(
-    <div>
-      <Header />
-      This is the about page
-    </div>
+    <Layout>
+        <p>This is the about page</p>
+    </Layout>
   )
 
 }
